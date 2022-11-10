@@ -1,0 +1,21 @@
+.jumbotron {
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(black, grey, black);
+    color: white;
+}
+
+h1 {
+    font-family: "Amantic-SC";
+}
+
+.site-footer {
+    background: linear-gradient(black, grey, black);
+    padding: 20px, 0;
+}
+
+iframe.instagram-media {
+    max-width: 25% !important;
+    width: 25% !important;
+    min-width: auto !important;
+}
