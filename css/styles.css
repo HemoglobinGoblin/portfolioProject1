@@ -39,3 +39,7 @@ li {
     background-color: rgb(5, 15, 15);
     color: rgb(150, 150, 150);
 }
+
+.carousel-inner {
+    padding-bottom: 10px;
+}
