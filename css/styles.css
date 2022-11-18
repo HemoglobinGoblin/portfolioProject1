@@ -11,9 +11,6 @@ h1 {
     
 }
 
-h2 {
-    
-}
 
 .site-footer {
     background: black;
@@ -38,4 +35,5 @@ p {
 li {
     background-color: rgb(5, 15, 15);
     color: rgb(150, 150, 150);
+    
 }
