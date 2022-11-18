@@ -11,6 +11,9 @@ h1 {
     
 }
 
+h2{
+    text-align: center;
+}
 
 .site-footer {
     background: black;
@@ -38,6 +41,12 @@ li {
     
 }
 
-.carousel-inner {
-    padding-bottom: 10px;
+.carousel-indicators {
+    /* width: fit-content;
+    margin: auto; */
+    margin-bottom: 3px;
+    
+}
+.carousel .carousel-indicators li {
+    background-color: rgb(255, 0, 0);
 }
