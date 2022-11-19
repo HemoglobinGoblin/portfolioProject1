@@ -20,9 +20,11 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <a href="index.html"><img src="img/CircleScissors.png" /></a>
+                    <a href="index.html"><img class="mb-3" src="img/CircleScissors.png"/></a>
                     <div class="row justify-content-center">
                         <h1 class="col-6">Hands of Scissors</h1>
+                    </div>
+                    <div>
                         <h2>Let us slice you a new look</h2>
                     </div>
                 </div>
@@ -47,13 +49,13 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                 </ul>
-                <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#bookingModal">
-                        Book Now!
-                    </a>
-                </span>
             </div>
         </div>
+        <span class="navbar-text ml-auto">
+            <a class="btn btn-danger" role="button" data-toggle="modal" data-target="#bookingModal">
+                Book Now!
+            </a>
+        </span>
     </nav>
 
     <div id="bookingModal" class="modal fade" role="dialog">
@@ -93,13 +95,11 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container mb-4">
         <div>
-            <header>
-                <div class="row justify-content-center">
-                    <h1 class="col-6" id="about">About</h1>
-                </div>
-            </header>
+            <div class="row justify-content-center">
+                <h1 class="col-6" id="about">About</h1>
+            </div>
             <p class="text-center col-6 offset-3">
                 Here at <b>Hands of Scissors</b> we don't just aim for perfect execution when it comes to services but we also aim to provide the maximum comfort while doing so. 
             </p>
@@ -116,17 +116,17 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="d-flex justify-content-center">
-                                <img class="col-4" src="img/hairCut1.jpg"/>
+                                <img src="img/hairCut1.jpg"/>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="d-flex justify-content-center">
-                                <img class="col-4" src="img/hairCut2.jpg"/>
+                                <img src="img/hairCut2.jpg"/>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="d-flex justify-content-center">
-                                <img class="col-4" src="img/hairCut3.jpg"/>
+                                <img src="img/hairCut3.jpg"/>
                             </div>
                         </div>
                     </div>
@@ -135,11 +135,9 @@
         </div>
 
         <div>
-            <header>
-                <div class="row justify-content-center">
-                    <h1 class="col-6 mt-3" id="services">Services</h1>
-                </div>
-            </header>
+            <div class="row justify-content-center">
+                <h1 class="col-6 mt-3" id="services">Services</h1>
+            </div>
             <div class="row">
                 <div class="col-4">
                     <h2 class="bg-light">Haircuts</h2>
@@ -162,39 +160,36 @@
                 </div>
             </div>
         </div>
-    
-        <div>
-            <header>
-                <div class="row justify-content-center">
-                    <h1 class="col-6 mt-3" id="contact">Contact</h1>
-                </div>
-            </header>
-        </div>
     </div>
 
-    <footer class="site-footer ">
+    <footer class="site-footer">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-4 text-center">
-                    <h1>Back To</h1>
-                    <ul class="list-unstyled">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+                <div class="col-4 text-center bg-light mt-2">
+                    <h1>Contact Us</h1>
                     <div class="row">
                         <div class="col">
-                            <span class="navbar-text">
-                                <a role="button" data-toggle="modal" data-target="#bookingModal">
-                                    <h2 class="bg-white">Book Now!</h2>
-                                </a>
-                            </span>
+                            <i class="fa fa-phone"> (832)-222-2222</i><br>
+                            <i class="fa fa-map"> 1234 First ST </i><br>
+                            <i class="fa fa-calendar"> Mon-Fri 10:00am -5:00pm</i>
                         </div>
                     </div>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <a href="index.html"><img src="img/CircleScissors.png" /></a>
+                <span class="navbar-text">
+                    <a class="btn btn-danger" role="button" data-toggle="modal" data-target="#bookingModal">
+                        <h2>Book Now!</h2>
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <a href="#"><img src="img/CircleScissors.png" /></a>
             </div>
         </div>
     </footer>
