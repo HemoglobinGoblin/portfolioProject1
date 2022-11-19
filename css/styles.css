@@ -51,3 +51,19 @@ li {
     background-color: rgb(255, 0, 0);
 }
 
+
+.carousel-inner {
+    padding-bottom: 10px;
+}
+
+
+
+.modal-header {
+    background-color: rgb(48, 47, 47);
+    color: azure;
+}
+
+.close {
+    color: white;
+}
+

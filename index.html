@@ -59,7 +59,7 @@
     </nav>
 
     <div id="bookingModal" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title">Book a Session</h3>
@@ -70,23 +70,21 @@
                         <form>
                             <div class="form-row">
                                 <div class="form-group col-12">
+                                    <label class="sr-only" for="name">First and Last Name</label>
+                                    <input type="name" class="form-control form-control-sm" id="name" placeholder="First and Last Name">
+                                </div>
+                                <div class="form-group col-12">
                                     <label class="sr-only" for="loginEmail">Email Address</label>
                                     <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
                                 </div>
                                 <div class="form-group col-12">
-                                    <label class="sr-only" for="bookTime">Date & Time</label>
+                                    <label class="sr-only" for="bookTime">Preferred Date & Time</label>
                                     <input type="datetime-local" class="form-control form-control-sm" id="bookTime" name="bookTime" placeholder="Date">
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox">
-                                        <label class="form-check-label">Remember me</label>
-                                    </div>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary btn-sm ml-1">Book Now</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -106,7 +104,7 @@
         </div>
 
         <div class="row">
-            <div class="col-xs-8 mx-auto">
+            <div class="col-sm-12 mx-auto">
                 <div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li class="active" data-target="#homeCarousel" data-slide-to="0"></li>
@@ -116,20 +114,20 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="d-flex justify-content-center">
-                                <img src="img/hairCut1.jpg"/>
+                                <img class="d-block col-sm-6" src="img/hairCut1.jpg"/>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="d-flex justify-content-center">
-                                <img src="img/hairCut2.jpg"/>
+                                <img class="d-block col-sm-6" src="img/hairCut2.jpg"/>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="d-flex justify-content-center">
-                                <img src="img/hairCut3.jpg"/>
+                                <img class="d-block col-sm-6" src="img/hairCut3.jpg"/>
                             </div>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div>
